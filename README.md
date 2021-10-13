@@ -9,8 +9,21 @@ Adicione a conta ```botFather``` no seu Telegram. Este bot exibirá os comandos 
 
 Crie o bot com o nome desejado
 
-BotName   ```feltexRioBot```
-UserName  ```feltexUserName```
+BotName   ```Canal Feltex```
+UserName  ```feltexUserName_bot```
+
+
+# Resposta do Bot
+
+O bot responde aos comandos
+    
+    /help
+    olá
+    data
+    hora
+    quem é você
+
+
 
 
 
