@@ -40,14 +40,14 @@ public class EchoBot extends TelegramLongPollingBot {
 
         if ("data".equals(textoMensagem)) {
             resposta = getData();
+        } else if (textoMensagem.startsWith("hora")) {
+            resposta = getHora();
         } else if (textoMensagem.startsWith("ola") || textoMensagem.startsWith("olá") || textoMensagem.startsWith("oi")) {
             resposta = "\uD83E\uDD16 Olá, vejo que você entende muito sobre BOTS!";
         } else if (textoMensagem.startsWith("quem é você") || textoMensagem.startsWith("quem e voce")) {
             resposta = "\uD83E\uDD16 Eu sou um bot";
-        } else if (textoMensagem.startsWith("hora")) {
-            resposta = getHora();
         } else if (textoMensagem.startsWith("/help")) {
-            resposta = "Utilize um dos comandos:\nolá\ndata\nquem é você\nhora";
+            resposta = "Utilize um dos comandos:\nolá\ndata\nhora\nquem é você?";
         } else {
             resposta = "Não entendi!\nDigite /help para ver os comandos disponíveis.";
         }
