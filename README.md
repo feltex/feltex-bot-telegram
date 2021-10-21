@@ -20,4 +20,4 @@ O bot responde aos comandos
     hora
     quem é você
 
-Link do vídeo: https://github.com/feltex/feltex-bot-telegram
+Link do vídeo: https://www.youtube.com/watch?v=eawDe1-jMDM
