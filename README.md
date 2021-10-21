@@ -1,6 +1,3 @@
-
-
-
 ## Criando o seu bot
 
 Adicione a conta ```botFather``` no seu Telegram. Este bot exibirá os comandos para voce criar o bot. 
@@ -23,7 +20,4 @@ O bot responde aos comandos
     hora
     quem é você
 
-
-
-
-
+Link do vídeo: https://github.com/feltex/feltex-bot-telegram
